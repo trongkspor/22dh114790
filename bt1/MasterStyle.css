@@ -1,0 +1,318 @@
+﻿* {
+	padding:0;
+	margin:0;
+	border:0;
+}
+div{
+	display:block;
+}
+
+#header {
+	background-position: center;
+	position: sticky;
+	top:0;
+	background-color: black;
+	height: 50px;
+}
+
+.logo{
+	width:120px;
+	height:50px;
+	cursor:pointer;
+	float:left;
+}
+#hear {
+	background-color:black;
+	width:25%;
+	height:50px;
+	vertical-align:middle;
+	text-align:center;
+	float:right;
+}
+#nav {
+	display:inline-block;
+	background-color: black;
+	width: 75%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	vertical-align:middle;
+}
+
+
+
+#listsp {
+	display:inline-block;
+	float: left;
+	width:80%;
+	height:50px;
+	padding: 0;
+}
+#nav #listsp ul{
+	margin:0;
+	padding:0;
+}
+
+#listsp li {
+	padding: 0 12px;
+	display:inline-block;
+	margin:0;
+}
+
+#nav #listsp li a {
+	text-decoration: none;
+	color: white;
+	line-height:50px;
+	color:white;
+}
+#l{
+	display:inline-block;
+	width:10%;
+	float:left;
+}
+
+#content{
+	display:inline-block;
+	float:left;
+	width:80%;
+}
+
+.quangcao {
+	display:block;
+	background-size: 100% 100%;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#r {
+	display: inline-block;
+	width: 10%;
+	float: right;
+}
+
+.iphone {
+	color: black;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-bottom:20px;
+}
+
+.titlesp h1{
+	display:block;
+	line-height:50px;
+	height:50px;
+	margin:0 0 20px;
+	
+}
+
+
+.dssp {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+.mausp {
+	display: inline;
+	background-color:white;
+	border-radius: 8px;
+	box-shadow: #57545467;
+	max-width: 252px;
+	max-height: 375px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.uudai{
+	display:inline-block;
+	float:right;
+	width: 252px;
+	height: 50px;
+}
+
+.uudai img{
+	display:flex;
+	float:right;
+	max-width:100px;
+	max-height:50px;
+}
+
+.tensp{
+}
+
+.giasp{
+	display:flex;
+}
+
+.giamgia {
+	color: cornflowerblue;
+	max-width: 88px;
+	max-height: 24px;
+	margin:0 10px 0 0;
+	
+}
+
+.giagoc {
+	text-decoration: line-through;
+}
+
+.giagoc ,giamtram {
+	color: gray;
+	max-width: 77px;
+	max-height: 24px;
+	margin: 0 10px 0 0;
+}
+
+.showall{
+	display:inline-block;
+	max-width:100%;
+	height:40px;
+	margin:30px 0;
+}
+.showall a {
+	border:double;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	line-height:40px;
+	color: blue;
+	border:double blue 1px;
+	border-radius:8px;
+	padding:10px 45px;
+}
+
+#footer {
+	display:inline-block;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	bottom:0;
+	right:0;
+}
+
+.hinhanh {
+	margin-top:50px;
+	width: 50%;
+	display:block;
+	float:left;
+}
+
+.anhlon{
+	background-size: 100%;
+}
+
+.anhnho {
+	display: block;
+
+}
+.anhnho img {
+	max-width: 20%;
+	max-height: 20%;
+	margin-right: 2px;
+	margin-top: 30px;
+	float: left;
+	margin:auto;
+	border:double #3532324c 1px;
+	border-radius:8px;
+	margin-right:2%;
+}
+
+.ndsp {
+	max-width: 50%;
+	display: inline-block;
+	float: left;
+	margin-top: 40px;
+}
+
+.dgsp{
+	max-width:100%;
+	color:#1c43c4;
+	margin-top:10px;
+	float:left;
+	padding-bottom:10px;
+	border-bottom:double 1px;
+}
+
+.dungluong{
+	width:100%;
+	color:#515154;
+}
+
+td {
+	border: double 1px;
+	border-radius: 8px;
+	padding: 10px 20px;
+	margin-right: 30px;
+	text-align:center;
+}
+
+td a {
+	text-decoration: none;
+	color: #515154;
+}
+
+.chonmau {
+	float: left;
+	margin-right: 10px;
+	border: double 1px;
+	border-radius: 500px;
+	display:block;
+	width:30px;
+	height:30px;
+}
+
+.chitietsp{
+	width:100%;
+	float:left;
+	color:black;
+	border:double 1px;
+	border-radius:4px;
+}
+
+.km{
+	color:#433b3bd4;
+	border-bottom:double 1px;
+	padding-left:50px;
+	padding-top:10px
+}
+
+.km .titlect p{
+	display:inline;
+	font-size:20px;
+	color:black; 
+	font-weight:bold;
+}
+
+.mua {
+	display: inline-block;
+	color: #0066cc;
+	border:0;
+	width: 100%
+}
+
+.mua button{
+	border: double #0066cc 1px;
+	background-color: #0066cc;
+	color: white;
+	border-radius: 8px;
+	width: 100%;
+	font-size: 30px;
+	height: 60px;
+	margin-bottom:5px;
+}
+
+	.mua .ptkhac button {
+		border-radius: 8px;
+		background-color: white;
+		width: 49%;
+		font-size: 30px;
+		height: 60px;
+		color: #0066cc;
+	}
+
+.chitietsp p{
+	color: black; 
+	padding:1px 10px
+}
